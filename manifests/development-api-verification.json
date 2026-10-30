@@ -1,0 +1,29 @@
+{
+  "verified_date": "2026-10-30",
+  "scope": "development_assistance_only",
+  "credential_label_user_supplied": "CodexAPIkey",
+  "organization_project_user_supplied": "Personal / Default project",
+  "account_labels_independently_verified": false,
+  "credential_copied_to_project": false,
+  "model_requested": "gpt-6-luna",
+  "model_returned": "gpt-6-luna",
+  "request_status": "completed",
+  "request_id": "resp_069ddc2f492b5241016ae43bbd70dc87d29a87a9b9a8787f94",
+  "max_output_tokens": 512,
+  "input_tokens": 261,
+  "output_tokens": 132,
+  "total_tokens": 393,
+  "response_storage_requested": false,
+  "learner_ingestion_allowed": false,
+  "local_checks": [
+    "credential_loading",
+    "scope_and_config_validation",
+    "token_cap",
+    "key_redaction",
+    "safe_failure_metadata",
+    "usage_receipts",
+    "ruff",
+    "lock_and_dependency_consistency"
+  ],
+  "run_receipt": "development/runs/20261030T063956Z-bcd96efd7a974177878561fc717e497e.json"
+}

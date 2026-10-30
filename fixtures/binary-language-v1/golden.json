@@ -1,0 +1,36 @@
+{
+  "scope": "development-engineering-only",
+  "learner_ingestion_allowed": false,
+  "native": {
+    "canonical_sha256": "17c78828651e11b69da6254278f9e23b198ed030edfc1c3a594627434b1bb52f",
+    "record_counts": {
+      "object": 194,
+      "derivation": 6,
+      "relation": 46
+    },
+    "selected": "prefix-4",
+    "prediction": {
+      "targets": 8197,
+      "errors": 2049,
+      "majority_baseline_errors": 4098,
+      "improved_over_majority": true,
+      "semantic_error": null
+    },
+    "representation": {
+      "training_selected_bits": 39880,
+      "training_raw_bits": 44928,
+      "holdout_selected_standalone_bits": 21800,
+      "holdout_raw_bits": 15072,
+      "counting": "canonical concept/codebook/expression bytes, IDs, framing and padding; audit archive separate"
+    }
+  },
+  "active_adapter": {
+    "canonical_sha256": "a61ff7b73e199669990b38a3f33ea05fa9158a578b023519317381911a1adcb3",
+    "record_counts": {
+      "object": 131,
+      "derivation": 6,
+      "relation": 37
+    },
+    "selected": "raw"
+  }
+}

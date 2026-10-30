@@ -1,0 +1,86 @@
+{
+  "created_date": "2026-10-29",
+  "python_version": "3.11.18",
+  "python_implementation": "CPython",
+  "python_build": [
+    "main",
+    "Oct 26 2026 13:58:42"
+  ],
+  "architecture": "arm64",
+  "platform": "Darwin",
+  "isolated_virtual_environment": true,
+  "stdlib_unicode_version": "14.0.0",
+  "project_unicode_version": "18.0.0",
+  "openssl": "OpenSSL 3.5.9 29 Sep 2026",
+  "manager": "uv 0.13.5 (46776a95d 2026-10-21 aarch64-apple-darwin)",
+  "library_release_cutoff": "2026-10-15T00:00:00Z",
+  "python_download_metadata": "https://raw.githubusercontent.com/astral-sh/uv/0.13.6/crates/uv-python-managed/download-metadata.json",
+  "configuration_sha256": {
+    ".python-version": "16f4b5e5b09ad10e8f98f226ad0efd9160fc487c51c53a630de4d4af6f68d3c8",
+    "pyproject.toml": "47176e9a7f35130c8e17713d129f04d1d9e67828397574e77991eacadf86503c",
+    "uv.lock": "96aca30eb8259d65745da3ef1b20871fd8bb536200200fa186d01ea56c19ef60",
+    "scripts/setup_env.sh": "4fae41dd351f327ee3d2007b616d6e162842d9881a6b11a9a55c36b3be859f7d"
+  },
+  "installed_distributions": [
+    {
+      "name": "annotated-types",
+      "version": "0.8.0"
+    },
+    {
+      "name": "hypothesis",
+      "version": "6.169.2"
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.1"
+    },
+    {
+      "name": "neo4j",
+      "version": "6.4.0"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.6.0"
+    },
+    {
+      "name": "pydantic",
+      "version": "2.14.1"
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.50.1"
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0"
+    },
+    {
+      "name": "pytest",
+      "version": "9.1.1"
+    },
+    {
+      "name": "pytz",
+      "version": "2026.5"
+    },
+    {
+      "name": "ruff",
+      "version": "0.17.0"
+    },
+    {
+      "name": "sortedcontainers",
+      "version": "2.4.0"
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.4"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0"
+    }
+  ]
+}

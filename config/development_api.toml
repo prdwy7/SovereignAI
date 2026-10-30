@@ -1,0 +1,15 @@
+schema_version = "sovereign-development-api-v1"
+scope = "development_assistance_only"
+provider = "openai"
+base_url = "https://api.openai.com/v1"
+credential_file = "/Users/prdwy/Documents/Codex/2026-10-30/help-me-set-up-openai-developers/.env.local"
+credential_variable = "OPENAI_API_KEY"
+default_model = "gpt-6-luna"
+allowed_models = ["gpt-6-luna", "gpt-6.1-sol", "gpt-6-astra"]
+default_max_output_tokens = 1536
+hard_max_output_tokens = 4096
+max_prompt_characters = 48000
+timeout_seconds = 60
+automatic_retries = 0
+store_response = false
+learner_ingestion_allowed = false

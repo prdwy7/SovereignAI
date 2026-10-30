@@ -1,0 +1,123 @@
+{
+  "run_id": "fcf774de9318c8efdb03361bf9b198224c315e0bba621f258b6d06e03910b7b3",
+  "report_id": "bdad631b5530b26ae6a15b7916685eb1b69cadd3b27952a07959d9ed4644a24b",
+  "summary": {
+    "scope": "927e21bd4a95a265949a876eedd614fa8e2da5457e4d50cf8a586275170f645a",
+    "profile": "sovereign-binary-language-v1",
+    "selected": "prefix-4",
+    "training_observations": 12,
+    "holdout_observations": 4,
+    "candidate_concepts": 16,
+    "literal_fallbacks": 2,
+    "association_edges": 12,
+    "concept_status": "observational-pattern-candidates",
+    "candidates": [
+      {
+        "name": "raw",
+        "measurements": {
+          "bits": 44928,
+          "encode": 73686,
+          "errors": 6139,
+          "decode": 24570
+        },
+        "weighted_score": 44928,
+        "book": null,
+        "predictor": "e7769eef601e0af1d56f2885fb9dce02294f6aa2b0aa75f24a903f9fdf7692db",
+        "training_only": true,
+        "lossless": true
+      },
+      {
+        "name": "prefix-0",
+        "measurements": {
+          "bits": 53968,
+          "encode": 110543,
+          "errors": 6139,
+          "decode": 24572
+        },
+        "weighted_score": 53968,
+        "book": "8683c2aa1aed28ac9512dc5aae1ae3f01deb97632c0008d50391270e9992ab95",
+        "predictor": "e7769eef601e0af1d56f2885fb9dce02294f6aa2b0aa75f24a903f9fdf7692db",
+        "training_only": true,
+        "lossless": true
+      },
+      {
+        "name": "prefix-4",
+        "measurements": {
+          "bits": 39880,
+          "encode": 155091,
+          "errors": 6139,
+          "decode": 3343
+        },
+        "weighted_score": 39880,
+        "book": "5dc3bd179c885a7755522965ff5f6fbaebdf88ad979a0b2bfc39c29e5056f1af",
+        "predictor": "77c76d468a8d98e88b0a69c3a6d1208404c588221fd376b8dd26b4b89c3e108e",
+        "training_only": true,
+        "lossless": true
+      },
+      {
+        "name": "prefix-8",
+        "measurements": {
+          "bits": 48608,
+          "encode": 257432,
+          "errors": 45,
+          "decode": 4947
+        },
+        "weighted_score": 48608,
+        "book": "8511f892ae99bdfce22d1e568e74786e9f42de5b6946781476d995e6720352a0",
+        "predictor": "e1f45aa99dc32da5890c1d612e0c3b6868e205653fdeba3eacc16963a4d14f9c",
+        "training_only": true,
+        "lossless": true
+      },
+      {
+        "name": "prefix-16",
+        "measurements": {
+          "bits": 62896,
+          "encode": 453926,
+          "errors": 42,
+          "decode": 4901
+        },
+        "weighted_score": 62896,
+        "book": "9b90901cd898773adf159bf4071fe6393eb375c1e75f5f15ece313de314c8369",
+        "predictor": "519c9ed7aaac0d7bddb075918680af316d5d4ccfe1ec90e2869edbc30d5195c9",
+        "training_only": true,
+        "lossless": true
+      }
+    ],
+    "weights": {
+      "bits": 1,
+      "decode": 0,
+      "encode": 0,
+      "errors": 0
+    },
+    "representation": {
+      "training_selected_bits": 39880,
+      "training_raw_bits": 44928,
+      "holdout_selected_standalone_bits": 21800,
+      "holdout_raw_bits": 15072,
+      "counting": "canonical concept/codebook/expression bytes, IDs, framing and padding; audit archive separate"
+    },
+    "prediction": {
+      "targets": 8197,
+      "errors": 2049,
+      "majority_baseline_errors": 4098,
+      "improved_over_majority": true,
+      "semantic_error": null
+    },
+    "hard_constraints": {
+      "all_reconstructions_exact": true,
+      "train_holdout_roots_disjoint": true,
+      "scope_isolated": true,
+      "concept_ids_immutable": true
+    },
+    "learner_ingestion_allowed": false,
+    "semantic_understanding": "not_established",
+    "subjective_experience": "not_established"
+  },
+  "record_counts": {
+    "object": 194,
+    "derivation": 6,
+    "relation": 46
+  },
+  "canonical_sha256": "17c78828651e11b69da6254278f9e23b198ed030edfc1c3a594627434b1bb52f",
+  "audit_archive_bytes": 116618
+}

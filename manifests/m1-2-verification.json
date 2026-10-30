@@ -1,0 +1,437 @@
+{
+  "build": "M1.2",
+  "status": "complete within approved scope",
+  "verified": true,
+  "verified_at": "2026-10-30T12:04:14.544123+00:00",
+  "authorization": "Explicit user approval of M1.2; API to author implementation, Codex to monitor and inspect",
+  "profile": "sovereign-unicode-sequence-v1",
+  "core_primitives": [
+    "Object",
+    "Relation",
+    "Derivation"
+  ],
+  "tokenizer": "deterministic Unicode scalar lookup; not trained Unigram or BPE",
+  "python_version": "3.11.18",
+  "tests": {
+    "existing": 103,
+    "new": 67,
+    "total_passed": 170,
+    "seconds": 7.1,
+    "command": ".venv/bin/python -m pytest -q tests",
+    "ruff": "scripts tools tests: passed",
+    "format": "six new Python files: passed"
+  },
+  "bounds": {
+    "source_bytes": 4096,
+    "scalar_positions": 1024,
+    "records": 4096,
+    "canonical_pack_bytes": 2097152
+  },
+  "checks": {
+    "exact_utf8_reconstruction": true,
+    "repeated_and_combining_positions": true,
+    "unicode_18_only_scalar": true,
+    "empty_and_multibyte_input": true,
+    "unsupported_and_malformed_rejection_preserves_source": true,
+    "finite_declarations_resolve": true,
+    "canonical_and_semantic_tamper_rejected": true,
+    "source_collection_mismatch_rejected": true,
+    "bounded_reads_and_directory_listing": true,
+    "index_rebuild_missing_corrupt_oversized": true,
+    "exclusive_destination_no_overwrite": true,
+    "hard_exit_before_and_after_publication": true,
+    "independent_process_restore_and_rebuild": true
+  },
+  "artifacts": {
+    "letter": {
+      "directory": "data/objects/sequences/m1-2/letter",
+      "report": {
+        "profile": "sovereign-unicode-sequence-v1",
+        "status": "accepted",
+        "source_id": "1ebf536820c1b2d5cfe73f9b578ea6a9d1768f88b267578d24427c60f39beac9",
+        "sequence_id": "471b04f92e321630ddc43d80e84b8fe37b395fd1cbeda662a7dbdbe86e4cad1c",
+        "span_map_id": "56687dda419fac76743a6c2e421f8a0b4a4746b04064b179b0be78b9412c583c",
+        "result_id": "f7e6ee7cb5930d97ff6cfbc33e63999fd8a0363345a008e921eedfac3ad2c94f",
+        "derivation_id": "28736e3551f4d63a9d5204497f02a1e90c27e4f1fc5a935e94b062a28078555c",
+        "byte_count": 6,
+        "scalar_count": 6,
+        "unique_scalar_count": 4,
+        "error": null,
+        "record_counts": {
+          "object": 41,
+          "relation": 6,
+          "derivation": 1
+        },
+        "canonical_sha256": "26aae84e3fce7f135ac34485cd8327214533e2882877a83951578bed41d7f376",
+        "learner_ingestion_allowed": false
+      },
+      "canonical_pack_bytes": 18555,
+      "files": {
+        "index.sqlite": {
+          "sha256": "d06e1d3ee1c1d64e23c623337bc4ce6e66b72e522614589209f3d48616eef473",
+          "bytes": 12288
+        },
+        "manifest.json": {
+          "sha256": "c150839dc2e94d58a65e3d337577a1afc0306b6994537a5a9502acb5c1b7fef2",
+          "bytes": 453
+        },
+        "records.bin": {
+          "sha256": "26aae84e3fce7f135ac34485cd8327214533e2882877a83951578bed41d7f376",
+          "bytes": 18555
+        },
+        "registry.json": {
+          "sha256": "fbf2e64ae3e33325b2b830decba4e73074268f78565e638a0557f0f13f790d1a",
+          "bytes": 4156
+        },
+        "report.json": {
+          "sha256": "2e71193bbf5fc8c9c253638fb9ee90488167594efde0b9ba2ab91ab3cd52b274",
+          "bytes": 714
+        }
+      },
+      "independent_subprocess_rebuild_matches": true
+    },
+    "combining": {
+      "directory": "data/objects/sequences/m1-2/combining",
+      "report": {
+        "profile": "sovereign-unicode-sequence-v1",
+        "status": "accepted",
+        "source_id": "93cc463c165ea4e5ad918a9e37981eb13a8c7dc057e97370a91382a23cb9f9f2",
+        "sequence_id": "e468bee2ed427c487376651beb755dcfb47b12bbbc3d3f97596151a7e93a7e78",
+        "span_map_id": "bff9d06725c9f3f9c327721103276e81f5cff6c7f9988f6941d1209330cbf92b",
+        "result_id": "c11295e38a6a020b603794503e47ea6c557b7b74ff8c4363ff9354eda5581f69",
+        "derivation_id": "94e867cc9c59947209da3250a6d1cba7c72128bf125f57d65f427e727b5bbe30",
+        "byte_count": 3,
+        "scalar_count": 2,
+        "unique_scalar_count": 2,
+        "error": null,
+        "record_counts": {
+          "object": 39,
+          "relation": 2,
+          "derivation": 1
+        },
+        "canonical_sha256": "d374d9b3b39e03cb909a98d3d52e12e034f7cefc94634242b3cb29df31c337f1",
+        "learner_ingestion_allowed": false
+      },
+      "canonical_pack_bytes": 16748,
+      "files": {
+        "index.sqlite": {
+          "sha256": "de1b6089f032950225cde8606c9848c91b4692510f01b6ef4b941d8fc759f220",
+          "bytes": 12288
+        },
+        "manifest.json": {
+          "sha256": "7ab68e78ed87179f49d5e6dc228c859448c13088909826ef81eb6b447ca4f694",
+          "bytes": 453
+        },
+        "records.bin": {
+          "sha256": "d374d9b3b39e03cb909a98d3d52e12e034f7cefc94634242b3cb29df31c337f1",
+          "bytes": 16748
+        },
+        "registry.json": {
+          "sha256": "fbf2e64ae3e33325b2b830decba4e73074268f78565e638a0557f0f13f790d1a",
+          "bytes": 4156
+        },
+        "report.json": {
+          "sha256": "c7b6f2f274cde92e42a45938667bcc378736c496bef8b6821ba705b65cea1c1c",
+          "bytes": 714
+        }
+      },
+      "independent_subprocess_rebuild_matches": true
+    },
+    "mixed": {
+      "directory": "data/objects/sequences/m1-2/mixed",
+      "report": {
+        "profile": "sovereign-unicode-sequence-v1",
+        "status": "accepted",
+        "source_id": "69eb4a7370d521e20d32b0a79feffb4bc34516564f4e6b701b2a95c85c7a4c58",
+        "sequence_id": "60f78592d8b93813f7f11ad309913161b37f4a1405ecc19616a33bafb14345e4",
+        "span_map_id": "cc131f1d10a84a5b922f19ae347ecaebd609f64299ddb32bfe1f273efbabea43",
+        "result_id": "2e266afe0988938e32d16bf08401cb7a27f97ba5d0ab1ae5f8b5134957b779d9",
+        "derivation_id": "60c4eff70fa95e6c478440001b18e629e31181b26a1934fd3a996c170c3e08ed",
+        "byte_count": 12,
+        "scalar_count": 6,
+        "unique_scalar_count": 6,
+        "error": null,
+        "record_counts": {
+          "object": 43,
+          "relation": 6,
+          "derivation": 1
+        },
+        "canonical_sha256": "08ee398378a87970d41b71c528249b5e2fd75d820d223ce5226b2a27c9919f74",
+        "learner_ingestion_allowed": false
+      },
+      "canonical_pack_bytes": 18859,
+      "files": {
+        "index.sqlite": {
+          "sha256": "f46848c017bd70edb3e2a3e13528b9e3e5db9fc8f0f40aeb32a1405d4a5096b7",
+          "bytes": 12288
+        },
+        "manifest.json": {
+          "sha256": "b8da414c2583cf33c165c1d1ff9fbbc2d79f6405f6e6761eb79eceda8b32af80",
+          "bytes": 453
+        },
+        "records.bin": {
+          "sha256": "08ee398378a87970d41b71c528249b5e2fd75d820d223ce5226b2a27c9919f74",
+          "bytes": 18859
+        },
+        "registry.json": {
+          "sha256": "fbf2e64ae3e33325b2b830decba4e73074268f78565e638a0557f0f13f790d1a",
+          "bytes": 4156
+        },
+        "report.json": {
+          "sha256": "6d46e820fa2ff66f56427c8b70c5832ae7b39478d504493e12d4b8ab35a4cb25",
+          "bytes": 715
+        }
+      },
+      "independent_subprocess_rebuild_matches": true
+    },
+    "rejected-utf8": {
+      "directory": "data/objects/sequences/m1-2/rejected-utf8",
+      "report": {
+        "profile": "sovereign-unicode-sequence-v1",
+        "status": "rejected",
+        "source_id": "d41bceff35965b5fd4c4e71d8b0db10eb500fd36b46a0f4256917784b16c54b1",
+        "sequence_id": null,
+        "span_map_id": null,
+        "result_id": "8a3254064dc01f1f3db92810a9034a811c1af76a31852877fcd7d45b30c1c834",
+        "derivation_id": "96afc479d04699241bab4f6850b8068bf18350aeb12352945c45980e89868430",
+        "byte_count": 2,
+        "scalar_count": null,
+        "unique_scalar_count": 0,
+        "error": {
+          "code": "invalid-utf8",
+          "byte_start": 1,
+          "byte_end": 2,
+          "scalar_index": null
+        },
+        "record_counts": {
+          "object": 35,
+          "relation": 0,
+          "derivation": 1
+        },
+        "canonical_sha256": "4245999578c1aa7c1c4744094b5b1b631181dad5b6645879830a673fffcc9aff",
+        "learner_ingestion_allowed": false
+      },
+      "canonical_pack_bytes": 15115,
+      "files": {
+        "index.sqlite": {
+          "sha256": "bd2e9e61e59464c26cee8136f844ac3107424c13dceb6f9c3348ad3fab29401f",
+          "bytes": 12288
+        },
+        "manifest.json": {
+          "sha256": "d7a9e9f5d627753865e5e79dc1f56f4aafe3c20bd65c4e927f80be3eb2fdfa4b",
+          "bytes": 453
+        },
+        "records.bin": {
+          "sha256": "4245999578c1aa7c1c4744094b5b1b631181dad5b6645879830a673fffcc9aff",
+          "bytes": 15115
+        },
+        "registry.json": {
+          "sha256": "fbf2e64ae3e33325b2b830decba4e73074268f78565e638a0557f0f13f790d1a",
+          "bytes": 4156
+        },
+        "report.json": {
+          "sha256": "c108c345070dd5ef04c3c4d2898bc646e687c87c9894740ea5ebd1fe7f0f8e44",
+          "bytes": 660
+        }
+      },
+      "independent_subprocess_rebuild_matches": true
+    }
+  },
+  "prior_foundations": {
+    "manifests/m0-2-verification.json": {
+      "all_pinned_file_hashes_match": true,
+      "count": 5
+    },
+    "manifests/m0-3-verification.json": {
+      "all_pinned_file_hashes_match": true,
+      "count": 11
+    },
+    "unicode_collection": {
+      "all_pinned_file_hashes_match": true,
+      "scalar_objects": 310341,
+      "declaration_objects": 6
+    },
+    "m0_2_replay": {
+      "verified": true,
+      "profile": "sovereign-active-objects-v1",
+      "format": "sovereign-silicate-scratch-v1-sha256",
+      "canonical_sha256": "0ba81e87f93ed8b2a302412f41a0a7121b6a4fc88b4d6a406eafef60f436e142",
+      "counts": {
+        "object": 99,
+        "relation": 26,
+        "derivation": 10
+      },
+      "commands": 10,
+      "replayed_commands": 10,
+      "learner_ingestion_allowed": false,
+      "subjective_experience": "not_established"
+    },
+    "m0_3_replays": {
+      "native": "17c78828651e11b69da6254278f9e23b198ed030edfc1c3a594627434b1bb52f",
+      "active-atom-a": "a61ff7b73e199669990b38a3f33ea05fa9158a578b023519317381911a1adcb3"
+    }
+  },
+  "dependencies": {
+    "new_packages": [],
+    "installed_package_compatibility": "25 packages passed",
+    "offline_lock": "27 entries resolved; check passed",
+    "configuration_sha256": {
+      "pyproject.toml": "ae67b0ba2070bd47bba56a618eb71a4c1a8ba90119ad6dbb1b18f532648f220a",
+      "uv.lock": "78de6c16f8006376e94c77fca788c4dec7d0a664694ca3d4dc16526ec760e92e",
+      ".python-version": "16f4b5e5b09ad10e8f98f226ad0efd9160fc487c51c53a630de4d4af6f68d3c8"
+    }
+  },
+  "development_api": {
+    "request_count": 9,
+    "model": "gpt-6.1-sol",
+    "input_tokens": 42007,
+    "output_tokens": 18559,
+    "total_tokens": 60566,
+    "runs": [
+      {
+        "run_id": "20261030T114604Z-f7b933b4d5ab485fb0068480614b1351",
+        "purpose": "design",
+        "model_requested": "gpt-6.1-sol",
+        "status": "completed",
+        "input_tokens": 3898,
+        "output_tokens": 2578,
+        "total_tokens": 6476,
+        "max_output_tokens": 4096,
+        "prompt_sha256": "99e1d21fab45c7b688999d3cb152dabe2e0c36a10f740838f5741a09281ca26f",
+        "output_sha256": "fb9000ec8d975a9b2c87d2f14d45bc8c6f3fa277a2f3668c8d3b7b0c82fab02b"
+      },
+      {
+        "run_id": "20261030T114759Z-a686a73a30c84b70908ec04415d52471",
+        "purpose": "design",
+        "model_requested": "gpt-6.1-sol",
+        "status": "completed",
+        "input_tokens": 5930,
+        "output_tokens": 2699,
+        "total_tokens": 8629,
+        "max_output_tokens": 4096,
+        "prompt_sha256": "d794cbf5e14baaf1cc001ee1c3bdeb85355c45dd241bb9a05434cc94261209d3",
+        "output_sha256": "2920f6a182a40561922404b296bb7cb86979a8e78827aea309c49dda1e788a98"
+      },
+      {
+        "run_id": "20261030T114938Z-ffd5c7ecbf414a1da708a72b9ab145ac",
+        "purpose": "design",
+        "model_requested": "gpt-6.1-sol",
+        "status": "completed",
+        "input_tokens": 3883,
+        "output_tokens": 2904,
+        "total_tokens": 6787,
+        "max_output_tokens": 4096,
+        "prompt_sha256": "7d17f5b203fa3c77614483a4557e9208c30444e1f7d02c8ea856773ea7b89fd7",
+        "output_sha256": "e811f9905d0ba2a0e990f3f7193c98049fa576477449ed815c4e7c3297b43be4"
+      },
+      {
+        "run_id": "20261030T115118Z-bf1b20cf8e6b40d89bd6f7abb328d9fe",
+        "purpose": "debug",
+        "model_requested": "gpt-6.1-sol",
+        "status": "completed",
+        "input_tokens": 5882,
+        "output_tokens": 336,
+        "total_tokens": 6218,
+        "max_output_tokens": 2048,
+        "prompt_sha256": "84456f24225dfd07e0bfc4f6bd27f4b5b3c23dbc381d056eec18bbbf00fea1a2",
+        "output_sha256": "3bf693c86bf0ba512129f84cb0006ff1a0f9ebc038c977b40540bd5dd030b278"
+      },
+      {
+        "run_id": "20261030T115119Z-821b294f8b8846bd8025c7e2e0565f11",
+        "purpose": "test-plan",
+        "model_requested": "gpt-6.1-sol",
+        "status": "completed",
+        "input_tokens": 5848,
+        "output_tokens": 3215,
+        "total_tokens": 9063,
+        "max_output_tokens": 4096,
+        "prompt_sha256": "51d921bcef9f2e659aabb282b34638c3dc51e5ed39db9c223ec7e8f628bd11e9",
+        "output_sha256": "1c4884205f7956d2b0e82c9257767256b14724196e8e175b25536664339caaa0"
+      },
+      {
+        "run_id": "20261030T115304Z-458d7b158cc145bab12e71a3af960b63",
+        "purpose": "debug",
+        "model_requested": "gpt-6.1-sol",
+        "status": "completed",
+        "input_tokens": 3389,
+        "output_tokens": 220,
+        "total_tokens": 3609,
+        "max_output_tokens": 1024,
+        "prompt_sha256": "ed3f0b6fcea59ebd8f012a6e8600577c527653b959352d06581b55d463a7c4e6",
+        "output_sha256": "4c342295407152ba1ab5ad5ddc1abfd3b83dfad7a290ab6911f8e8dc2fd5b454"
+      },
+      {
+        "run_id": "20261030T115306Z-753dbf78d9af461aa0f1815b824abed5",
+        "purpose": "test-plan",
+        "model_requested": "gpt-6.1-sol",
+        "status": "completed",
+        "input_tokens": 3578,
+        "output_tokens": 3194,
+        "total_tokens": 6772,
+        "max_output_tokens": 4096,
+        "prompt_sha256": "b46c7a3b8b18cded01f517479f87efed324bc8adc750a16c6fcf9958bad1e431",
+        "output_sha256": "a0b04ae3345d9e7497e7b248a753cec5c252a26a6b6379ed670a5c546a46e71f"
+      },
+      {
+        "run_id": "20261030T115525Z-c1900aa6a046473e9f1d1bc1d3d76c0e",
+        "purpose": "review",
+        "model_requested": "gpt-6.1-sol",
+        "status": "completed",
+        "input_tokens": 8729,
+        "output_tokens": 2735,
+        "total_tokens": 11464,
+        "max_output_tokens": 4096,
+        "prompt_sha256": "7c4e85ea09c6c65f640b66450a9ac4fc30409caf4e1a0248fe62038068042814",
+        "output_sha256": "1a04c9e0d94d84673b186ec60ebf7c741c6e7be6ec79cea348b6ed554c010baf"
+      },
+      {
+        "run_id": "20261030T115755Z-8cd7ebceecb746d09a9896bc65a533ff",
+        "purpose": "test-plan",
+        "model_requested": "gpt-6.1-sol",
+        "status": "completed",
+        "input_tokens": 870,
+        "output_tokens": 678,
+        "total_tokens": 1548,
+        "max_output_tokens": 1536,
+        "prompt_sha256": "9417b297268e8227e708ccf99d084026496c93903b3e9afd980377007d543aa3",
+        "output_sha256": "f27dc10795a474d87e99d058c69d983374eeff9badced903b8838d11c1c97e81"
+      }
+    ],
+    "max_prompt_characters": 48000,
+    "max_output_tokens_per_request": 4096,
+    "timeout_seconds_per_request": 60,
+    "automatic_retries": 0,
+    "store": false,
+    "learner_ingestion_allowed": false
+  },
+  "inspection_disposition": [
+    "API authored code, tests and initial guide; each response inspected before application",
+    "API corrected invented module imports and Relation field names",
+    "API corrected missing/oversized index recovery and streaming Unicode source hashing",
+    "API corrected resource limits and supplied regressions",
+    "Codex applied reviewed proposals, standard formatter/lint fixes, and corrected guide Unigram/Relation terminology",
+    "Acceptance relies on local tests/replay and independent rebuilds, not API grading"
+  ],
+  "limitations": [
+    "Deterministic scalar input only; no trained Unigram vocabulary",
+    "No normalization or grapheme segmentation",
+    "Only existing assigned Unicode18 repertoire; unsupported scalars create rejected artifacts",
+    "No meanings, English learning, active-instance changes or graph service",
+    "Pinned UCD required for accepted-input replay; cached repertoire assumes unchanged file during process",
+    "Hard exits can leave sibling locks/staging requiring manual inspection before retry",
+    "No tensor/streaming scale extension implemented"
+  ],
+  "learner_ingestion_allowed": false,
+  "file_sha256": {
+    "tools/sequence_contract.py": "91722f74719546f63b76d2feffe3a72d15e3f19bb19e89bc07d08bfac048f78e",
+    "tools/sequence_engine.py": "f668d39696a32432349627bc62849c559bfc96fde4d9f293252f4b1c1807f471",
+    "tools/unicode_sequences.py": "a5067c98d970a8997124ed53450d72ef6eaf5de9d304773e92afe8d0e7df2616",
+    "tests/test_sequence_engine.py": "7c554e08df0bc916f3387e92e4ec6d084879ba543100f57688bdf466a19bbd14",
+    "tests/test_unicode_sequences.py": "afa955c176fee5c5eddaf30ad6f3f3d68286162af3c3136465b517acc8c5b73f",
+    "tests/test_sequence_resource_bounds.py": "51f3ff46cdc1b412aa66ae2101662c78ac3ace9da5256b604bfc1e2cfca01a1c",
+    "fixtures/unicode-sequences-v1/golden.json": "fa25d04db77e5e1b34579f5cf09314f57c0b5cdaa7ecb53bfc2fe3d0e7dc5d94",
+    "docs/UNICODE_SEQUENCES.md": "6a36456bfe8b7f373b3c7b393b0ef66e0c211fdfa76607a0c592dae8a2e3f76a",
+    "docs/M1_2_PROPOSAL.md": "76bccc54cdeda9cf0ab6cc53e9215a02dd0b33ea52589ad01f857196ebbc490c",
+    "data/objects/sequences/m1-2/README.md": "fbc1c1f254b43bac7dcc8d0eec18ae0ed95d3801347521dbd3471fca64db688d"
+  }
+}

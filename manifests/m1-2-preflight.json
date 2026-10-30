@@ -1,0 +1,81 @@
+{
+  "all_direct_pins_match": true,
+  "build": "M1.2",
+  "checked_at": "2026-10-30T11:41:25.786712+00:00",
+  "checks": {
+    "active_artifact_replay": {
+      "passed": true,
+      "path": "data/experiments/active-objects/m0-2/records.sqlite",
+      "replayed_commands": 10
+    },
+    "binary_artifact_replay": {
+      "passed": true,
+      "paths": [
+        "data/experiments/binary-language/m0-3/native",
+        "data/experiments/binary-language/m0-3/active-atom-a"
+      ]
+    },
+    "installed_package_compatibility": {
+      "command": "uv pip check --python .venv/bin/python",
+      "packages": 25,
+      "passed": true
+    },
+    "lock": {
+      "command": "uv lock --check --offline",
+      "passed": true,
+      "resolved_entries": 27
+    },
+    "prior_m0_3_receipt_file_hashes_match": true,
+    "pytest": {
+      "command": ".venv/bin/python -m pytest -q tests",
+      "passed": 103,
+      "seconds": 3.39
+    },
+    "ruff": {
+      "command": ".venv/bin/ruff check scripts tools tests",
+      "passed": true
+    },
+    "unicode_collection": {
+      "command": ".venv/bin/python -m tools.unicode_objects verify",
+      "declaration_objects": 6,
+      "passed": true,
+      "scalar_objects": 310341
+    }
+  },
+  "configuration_sha256": {
+    ".python-version": "16f4b5e5b09ad10e8f98f226ad0efd9160fc487c51c53a630de4d4af6f68d3c8",
+    "pyproject.toml": "ae67b0ba2070bd47bba56a618eb71a4c1a8ba90119ad6dbb1b18f532648f220a",
+    "uv.lock": "78de6c16f8006376e94c77fca788c4dec7d0a664694ca3d4dc16526ec760e92e"
+  },
+  "direct_pins": {
+    "hypothesis": "6.169.2",
+    "neo4j": "6.4.0",
+    "openai": "3.31.0",
+    "pydantic": "2.14.1",
+    "pytest": "9.1.1",
+    "python-dotenv": "1.2.4",
+    "ruff": "0.17.0"
+  },
+  "new_runtime_packages_required": [],
+  "not_checked": [
+    "Live database connectivity",
+    "Security vulnerability audit",
+    "Scale/load performance",
+    "M1.2 runtime behavior; implementation awaits approval"
+  ],
+  "paid_development_api_requests": 0,
+  "pending_elsewhere": [
+    "Neo4j server and adapter integration",
+    "Production Rust source/license integration",
+    "Unicode 18 normalization and grapheme conformance views",
+    "Grounded teaching and lexical binding",
+    "Numeric/tensor schemas and streamed storage"
+  ],
+  "project_unicode": "18.0.0",
+  "proposal": "docs/M1_2_PROPOSAL.md",
+  "proposal_sha256": "d53eb94cc504d294910d0acac23a15834529b177f74fec3d6952178331ac8949",
+  "python": "3.11.18",
+  "scope": "Local dependency compatibility and existing foundation verification",
+  "status": "proposal awaiting approval; no implementation",
+  "stdlib_unicode": "14.0.0"
+}

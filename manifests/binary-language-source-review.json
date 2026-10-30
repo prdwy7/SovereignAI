@@ -1,0 +1,31 @@
+{
+  "source_url": "https://chatgpt.com/s/t_6ae44d42ba6481918fec6b463eb8ccf5",
+  "reviewed_date": "2026-10-30",
+  "build": "M0.3",
+  "coverage": "One publicly exposed assistant response; six components recovered from inert visual markup; earlier user messages unavailable",
+  "extraction": "JSON decoding of public React Router stream; no JavaScript or markup execution",
+  "plain_text_sha256": "588a9c46a5878c90da52cf1b27350dc601d61e2cdb1adff136e16bcc7170dfaf",
+  "visual_markup_sha256": "36949676fddc0df59ecac0ffa752e0a56588360d67ee873199895dcb2c55510f",
+  "components": [
+    "binary_observation",
+    "pattern_discovery",
+    "concept_formation",
+    "relationship_discovery",
+    "binary_language_optimization",
+    "reasoning_and_validation"
+  ],
+  "architecture_reference_only": true,
+  "learner_ingestion_allowed": false,
+  "existing_core_preserved": [
+    "Object",
+    "Relation",
+    "Derivation"
+  ],
+  "identity_policy": "Immutable canonical IDs, replaceable versioned local codes",
+  "raw_fallback_and_lossless_reconstruction_required": true,
+  "illustrative_english_labels_imported": false,
+  "primary_algorithm_references": [
+    "https://homepages.cwi.nl/~pdg/ftp/mdlintro.pdf",
+    "https://compression.ru/download/articles/huff/huffman_1952_minimum-redundancy-codes.pdf"
+  ]
+}

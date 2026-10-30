@@ -1,0 +1,41 @@
+[project]
+name = "sovereignai"
+version = "0.1.0"
+description = "SovereignAI symbolic learning research environment"
+readme = "README.md"
+requires-python = ">=3.11.18,<3.12"
+dependencies = [
+    "neo4j==6.4.0",
+    "pydantic==2.14.1",
+]
+
+[dependency-groups]
+dev = [
+    "hypothesis==6.169.2",
+    "openai==3.31.0",
+    "pytest==9.1.1",
+    "python-dotenv==1.2.4",
+    "ruff==0.17.0",
+]
+
+[tool.uv]
+package = false
+required-version = ">=0.13.5,<0.14"
+cache-dir = ".cache/uv"
+prerelease = "disallow"
+# Fix the release cutoff for this initial library selection; review it during upgrades.
+exclude-newer = "2026-10-15T00:00:00Z"
+# The installed uv predates Python 3.11.18. Pin the metadata source independently.
+python-downloads-json-url = "https://raw.githubusercontent.com/astral-sh/uv/0.13.6/crates/uv-python-managed/download-metadata.json"
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+default = true
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP", "B"]

@@ -1,0 +1,36 @@
+{
+  "build": "M1.1",
+  "format": "sovereign-silicate-scratch-v1-sha256",
+  "bootstrap_profile": "sovereign-unicode-object-bootstrap-v1",
+  "unicode_version": "18.0.0",
+  "source": "UnicodeData.txt with First/Last ranges expanded",
+  "source_sha256": "0736451de439ae7baf1425136617da495e09ee5afbe6e394374db7009ea08950",
+  "unicode_scalar_objects": 310341,
+  "declaration_objects": 6,
+  "total_objects": 310347,
+  "excluded_surrogate_code_points": 2048,
+  "repertoire": "Assigned scalar records in UCD, including controls and private-use ranges; unassigned scalars are not materialized",
+  "payload": "4-byte unsigned big-endian scalar value; no names or linguistic meanings",
+  "storage": "objects.bin holds canonical Object frames; index.sqlite is a rebuildable lookup and infrastructure metadata view",
+  "file_sha256": {
+    "objects.bin": "0f649fa0a4a645a6a698cd76a5a82b153bbb141fde64d02f0101cc7b771fc549",
+    "index.sqlite": "783abad01fa1c74fe6b5107ee76b3d9c1863e597d027d8401b920af91dfce8b3",
+    "registry.json": "5974c5bb61f0d453c07062daaf8c32a3d34e741caffcff362b82c26ad6f72ab0"
+  },
+  "sqlite_version": "3.53.1",
+  "created_at": "2026-10-30T07:08:02.169214+00:00",
+  "reproducibility": "Canonical object bytes, IDs, registry and record ordering are deterministic; SQLite bytes and timestamps are environment-specific",
+  "verification": {
+    "verified": true,
+    "unicode_scalar_objects": 310341,
+    "declaration_objects": 6,
+    "total_objects": 310347
+  },
+  "implementation_sha256": "5bed689b414a58f902d69cdd18fae5c1bb575fd9975d9c3b0b07ff7dfcff9dd3",
+  "reproduction_check": {
+    "canonical_collection_identical": true,
+    "registry_identical": true,
+    "lookup_index_identical": true,
+    "verified_date": "2026-10-30"
+  }
+}

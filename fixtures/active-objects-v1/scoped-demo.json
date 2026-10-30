@@ -1,0 +1,37 @@
+{
+  "scope": "development_engineering_only",
+  "learner_ingestion_allowed": false,
+  "profile": "sovereign-active-objects-v1",
+  "canonical_sha256": "0ba81e87f93ed8b2a302412f41a0a7121b6a4fc88b4d6a406eafef60f436e142",
+  "counts": {
+    "object": 99,
+    "relation": 26,
+    "derivation": 10
+  },
+  "commands": 10,
+  "expected": {
+    "atom_before_group": [
+      3,
+      2
+    ],
+    "atom_after_group_events": [
+      3,
+      2
+    ],
+    "atom_after_explicit_transfer": [
+      4,
+      3
+    ],
+    "unaffected_member": [
+      0,
+      0
+    ],
+    "group_after_events": [
+      2,
+      1
+    ]
+  },
+  "group_receipt": "f8f33cfe3a74843d167e299d64020db49738699ce106fe65398bb5f5deb228e6",
+  "transfer_policy": "00be5ef95c9afd07f71b397d04c09c0e7b44c62c1a3bbeec64ce01383e2a8c86",
+  "transfer_receipt": "b16b5d7e0e00e891b00a72d24dd85ad366dd0b9e3f6be79d147a873e46b4890a"
+}

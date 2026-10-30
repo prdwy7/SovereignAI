@@ -1,0 +1,96 @@
+{
+  "build": "M0.2",
+  "verified_date": "2026-10-30",
+  "verified": true,
+  "authorization": "Explicit user approval with scoped atom/group interaction and opt-in transfer",
+  "storage_directory": "data/experiments/active-objects/m0-2",
+  "verification": {
+    "verified": true,
+    "profile": "sovereign-active-objects-v1",
+    "format": "sovereign-silicate-scratch-v1-sha256",
+    "canonical_sha256": "0ba81e87f93ed8b2a302412f41a0a7121b6a4fc88b4d6a406eafef60f436e142",
+    "counts": {
+      "object": 99,
+      "relation": 26,
+      "derivation": 10
+    },
+    "commands": 10,
+    "replayed_commands": 10,
+    "learner_ingestion_allowed": false,
+    "subjective_experience": "not_established"
+  },
+  "runtime": {
+    "python": "3.11.18",
+    "sqlite": "3.53.1"
+  },
+  "tests": {
+    "existing": 40,
+    "active_objects": 27,
+    "total_passed": 67,
+    "command": ".venv/bin/python -m pytest -q tests",
+    "ruff": "scripts tools tests: passed"
+  },
+  "scope_checks": {
+    "group_starts_empty": true,
+    "members_unchanged_by_group_events": true,
+    "explicit_transfer_only": true,
+    "unaffected_member": true,
+    "restart_state_matches": true
+  },
+  "recovery_tests": [
+    "exception_before_commit",
+    "hard_exit_before_commit",
+    "hard_exit_after_commit_lost_response_idempotent_retry"
+  ],
+  "independent_rebuild": {
+    "canonical_records_identical": true,
+    "report_identical": true,
+    "directory": ".cache/active-m0-repro"
+  },
+  "unicode_collection": {
+    "full_verification_passed": true,
+    "total_objects": 310347,
+    "original_objects_changed": false
+  },
+  "dependencies": {
+    "new_packages": [],
+    "installed_packages": 25,
+    "uv_pip_check": "passed",
+    "uv_lock_check_offline": "passed"
+  },
+  "development_review": {
+    "run_id": "20261030T074403Z-3f53f0f885d24c899df9da82b1d9fa7b",
+    "status": "completed",
+    "scope": "development_assistance_only",
+    "model_requested": "gpt-6-luna",
+    "max_output_tokens": 1024,
+    "input_tokens": 7278,
+    "output_tokens": 740,
+    "total_tokens": 8018,
+    "prompt_sha256": "9e1ce4d30cc5daa3ba9794b17abaf4abf203d599e37de88c73c3a1aa3666ef31",
+    "output_sha256": "30aff4377d3028f54ae324c64aae28f82442afa6fac0f29ea7f351e881a585b0",
+    "learner_ingestion_allowed": false
+  },
+  "review_disposition": {
+    "adopted": [
+      "preserve_original_error_when_rollback_not_available",
+      "add_post_commit_process_exit_and_lost_response_test"
+    ],
+    "not_adopted": [
+      "uppercase_ids_already_rejected",
+      "invalid_labels_already_rejected",
+      "one_deterministic_policy_per_route",
+      "opening_and_full_replay_already_reject_injected_records"
+    ],
+    "basis": "Local code inspection and tests, not API authority"
+  },
+  "learner_ingestion_allowed": false,
+  "subjective_experience": "not_established",
+  "file_sha256": {
+    "tools/active_objects.py": "13b455b800785896d975ad2996ab3995477b5524ea1fa7f732b81f2efa2fd723",
+    "tests/test_active_objects.py": "a5c69db8265999ec55b63d5b2b6304f2c337189217f4c899d861d6db7248cfd4",
+    "fixtures/active-objects-v1/scoped-demo.json": "0557aa9bf0632b5f1d0d9a506440c5f6f9a47652f38ae6b3500be37729dbe173",
+    "data/experiments/active-objects/m0-2/records.sqlite": "6786ec8219a50cc123b8cb94fb00b15b95c77055178679d1c848f166ef77ee33",
+    "data/experiments/active-objects/m0-2/report.json": "7dde19fdea300f99362bd2154ea8ebac7cf5d060738272e9a869d24fa4641237"
+  }
+}

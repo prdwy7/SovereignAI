@@ -1,0 +1,215 @@
+schema_version = "sovereign-research-registry-draft-v1"
+plan_version = "0.3"
+reviewed_date = "2026-10-30"
+source_url = "https://chatgpt.com/s/t_6ae39bbc3ef48191a3d8169ab041991d"
+design_document = "docs/MATHEMATICAL_EXTENSIONS.md"
+purpose = "Traceable experiment proposals; no running harness reads this register."
+runtime_loaded = false
+
+[defaults]
+pretrained_models_allowed = false
+canonical_store_is_authority = true
+independent_evaluation_required = true
+retention_check_required = true
+thresholds_frozen_before_run = true
+hard_checks = [
+  "canonical_identity_and_original_scalars_preserved",
+  "roles_and_operation_order_preserved",
+  "source_exposure_and_evidence_roots_recorded",
+  "approximate_outputs_not_promoted_as_facts",
+  "stale_artifacts_rejected_or_explicitly_rebuilt",
+  "assessment_events_not_counted_twice",
+  "incumbent_restore_available",
+]
+
+[[extensions]]
+id = "AX01"
+source_number = 1
+name = "Geometric algebra"
+status = "planned_grounding_pilot"
+enabled = false
+layers = [8, 11, 18]
+component = "grounded_spatial_semantics"
+prerequisites = ["teacher_approved_spatial_domain", "reference_frames_and_units", "independent_scene_checker"]
+depends_on_extensions = []
+activation_gate = "Run only after grounded spatial tasks exist; broad language-semantics branch remains research."
+baselines = ["coordinate_and_matrix_transforms"]
+metrics = ["scene_answer_accuracy", "composition_error", "peak_memory_bytes", "wall_time", "sample_cost"]
+acceptance_case = "AX01_REFERENCE_FRAME_AND_COMPOSITION"
+sources = ["https://arxiv.org/abs/2305.18415", "https://arxiv.org/abs/2610.30121", "https://arxiv.org/abs/2604.25902"]
+
+[[extensions]]
+id = "AX02"
+source_number = 2
+name = "Tensor networks"
+status = "planned_after_neural_baseline"
+enabled = false
+layers = [9, 16]
+component = "factorized_neural_component"
+prerequisites = ["working_dense_t5_baseline", "parameter_and_optimizer_accounting", "retention_suite"]
+depends_on_extensions = []
+activation_gate = "Replace one profiled dense component; start with static ranks and evaluate separately from AX06."
+baselines = ["dense_component", "ordinary_matrix_low_rank_component"]
+metrics = ["task_accuracy", "retention", "parameter_bytes", "optimizer_bytes", "peak_memory_bytes", "latency", "conversion_cost"]
+acceptance_case = "AX02_ACTUAL_COMPRESSION_AND_QUALITY"
+sources = ["https://arxiv.org/abs/1509.06569", "https://arxiv.org/abs/2608.30505"]
+
+[[extensions]]
+id = "AX03"
+source_number = 3
+name = "Hyperdimensional computing"
+status = "planned_after_exact_retrieval"
+enabled = false
+layers = [6, 8, 10]
+component = "role_sensitive_retrieval_projection"
+prerequisites = ["exact_record_retrieval", "grounded_scene_records", "versioned_codebook_contract"]
+depends_on_extensions = []
+activation_gate = "Use vectors to return candidate record IDs; exact role, sense and snapshot checks remain required."
+baselines = ["exact_typed_indexes", "sparse_retrieval", "random_retrieval"]
+metrics = ["recall_at_k", "false_match_rate", "interference_abstention", "update_cost", "query_latency", "downstream_accuracy"]
+acceptance_case = "AX03_ROLE_SWAP_AND_DISTRACTOR_RECALL"
+sources = ["https://arxiv.org/abs/2111.06077"]
+
+[[extensions]]
+id = "AX04"
+source_number = 4
+name = "Spectral graph theory"
+status = "planned_graph_pilot"
+enabled = false
+layers = [6, 10, 13]
+component = "bounded_graph_projection"
+prerequisites = ["versioned_graph_snapshot", "typed_neighborhood_baseline", "explicit_adjacency_projection"]
+depends_on_extensions = []
+activation_gate = "Specify nonnegative symmetric projection and direction-loss policy before computing its Laplacian."
+baselines = ["exact_id_lookup", "bounded_typed_neighborhood_traversal"]
+metrics = ["context_recall", "omitted_evidence_rate", "downstream_accuracy", "query_latency", "rebuild_cost", "snapshot_drift"]
+acceptance_case = "AX04_DIRECTION_FILTER_AND_STALE_SNAPSHOT"
+sources = ["https://arxiv.org/abs/0912.3848"]
+
+[[extensions]]
+id = "AX05"
+source_number = 5
+name = "Operator learning"
+status = "planned_typed_program_pilot_function_space_branch_deferred"
+enabled = false
+layers = [8, 11, 16]
+component = "typed_transformation_learning"
+prerequisites = ["bounded_typed_interpreter", "scoped_grammar_seeds", "independent_meaning_checker"]
+depends_on_extensions = ["AX09"]
+activation_gate = "Begin with program-composition learning; do not label it a neural operator. Function-space work needs a later scientific domain."
+baselines = ["fixed_rules", "accepted_example_memorization"]
+metrics = ["unseen_composition_accuracy", "invalid_precondition_rejection", "search_expansions", "program_length", "retention"]
+acceptance_case = "AX05_SCOPE_AND_PRECONDITION_PRESERVATION"
+sources = ["https://arxiv.org/abs/2108.08481"]
+
+[[extensions]]
+id = "AX06"
+source_number = 6
+name = "Dynamic low-rank subspaces"
+status = "planned_after_neural_baseline"
+enabled = false
+layers = [9, 16]
+component = "adaptive_rank_training"
+prerequisites = ["dense_and_fixed_rank_baselines", "optimizer_state_migration", "retention_suite", "hard_memory_budget"]
+depends_on_extensions = []
+activation_gate = "Change rank only through versioned candidates; record the rank schedule and all training costs."
+baselines = ["dense_training", "fixed_rank_training"]
+metrics = ["task_accuracy", "retention", "rank_schedule", "peak_memory_bytes", "wall_time", "rank_change_overhead"]
+acceptance_case = "AX06_RANK_CHANGE_RESTART_AND_RETENTION"
+sources = ["https://arxiv.org/abs/2205.13571"]
+
+[[extensions]]
+id = "AX07"
+source_number = 7
+name = "Symplectic geometry"
+status = "deferred_physics_domain"
+enabled = false
+layers = [11, 18]
+component = "physical_dynamics_model"
+prerequisites = ["english_gate", "mathematics_foundations", "physics_foundations", "hamiltonian_reference_simulator"]
+depends_on_extensions = []
+activation_gate = "No initial English dependency; needs explicit dynamical state, timestep and independent physical reference."
+baselines = ["symplectic_numerical_integrator", "ordinary_learned_predictor"]
+metrics = ["trajectory_error", "long_horizon_drift", "symplectic_residual", "energy_error", "compute_cost"]
+acceptance_case = "AX07_HELD_OUT_TRAJECTORY_ROLLOUT"
+sources = ["https://arxiv.org/abs/2001.03750"]
+
+[[extensions]]
+id = "AX08"
+source_number = 8
+name = "Tropical linear algebra"
+status = "planned_grammar_search"
+enabled = false
+layers = [4, 8, 11]
+component = "min_plus_candidate_search"
+prerequisites = ["grammar_or_segmentation_candidates", "explicit_cost_semantics", "acyclic_or_bounded_search_space"]
+depends_on_extensions = ["AX09"]
+activation_gate = "Start with nonnegative costs; preserve ties and ambiguity; ranking is not truth assessment."
+baselines = ["small_exhaustive_enumeration", "ordinary_bounded_search"]
+metrics = ["optimal_path_agreement", "meaning_preservation", "source_span_reconstruction", "search_expansions", "latency"]
+acceptance_case = "AX08_TIES_UNREACHABLE_AND_COST_OPTIMALITY"
+sources = ["https://www.openfst.org/twiki/bin/view/FST/ShortestDistanceDoc", "https://research.google/pubs/generic-e-removal-and-input-e-normalization-algorithms-for-weighted-transducers/"]
+
+[[extensions]]
+id = "AX09"
+source_number = 9
+name = "Noncommutative algebra"
+status = "foundation_order_contracts_verified_optional_learned_branch_pending"
+enabled = false
+layers = [3, 4, 8, 11]
+component = "ordered_sequence_and_operator_composition"
+prerequisites = ["pinned_silicate_format", "ordered_composition_contract", "explicit_application_direction"]
+depends_on_extensions = []
+activation_gate = "Implement exact order contracts in M0/M1; learned matrix/operator representations remain optional."
+baselines = ["exact_sequence_reconstruction", "typed_ast_interpreter"]
+metrics = ["round_trip_exactness", "ordered_replay_exactness", "role_and_scope_contrast_accuracy"]
+acceptance_case = "AX09_APPEND_AB_VERSUS_BA"
+sources = ["https://aclanthology.org/D12-1110/"]
+
+[[extensions]]
+id = "AX10"
+source_number = 10
+name = "Sparse associative memory"
+status = "planned_after_durable_objects"
+enabled = false
+layers = [6, 10, 13]
+component = "sparse_cue_memory_index"
+prerequisites = ["durable_exact_records", "occurrence_and_provenance_records", "exact_postings_baseline"]
+depends_on_extensions = []
+activation_gate = "Treat sparse distributed memory as an optional index after simple sparse retrieval; preserve canonical payloads."
+baselines = ["exact_postings", "bounded_graph_lookup"]
+metrics = ["precision_at_k", "recall_at_k", "false_association_rate", "update_cost", "query_latency", "bytes_per_item", "rebuild_correctness"]
+acceptance_case = "AX10_SENSE_SEPARATION_AND_SUPERSESSION"
+sources = ["https://ntrs.nasa.gov/api/citations/19920019632/downloads/19920019632.pdf"]
+
+[[extensions]]
+id = "AX11"
+source_number = 11
+name = "Sheaf-based linear algebra"
+status = "planned_scoped_consistency_pilot"
+enabled = false
+layers = [6, 8, 11, 15]
+component = "context_compatibility_diagnostics"
+prerequisites = ["exact_assertion_constraint_checker", "context_and_sense_scopes", "anchored_restriction_maps"]
+depends_on_extensions = []
+activation_gate = "Interpret residuals as diagnostics; preserve legitimate disagreement and prevent collapsed representations."
+baselines = ["typed_constraint_checker", "ordinary_graph_diffusion"]
+metrics = ["conflict_detection_precision", "conflict_detection_recall", "false_context_merge_rate", "collapse_detection", "compute_cost"]
+acceptance_case = "AX11_DIFFERENT_SENSES_AND_TRUE_CONFLICTS"
+sources = ["https://arxiv.org/abs/2202.04579"]
+
+[[extensions]]
+id = "AX12"
+source_number = 12
+name = "Multiscale wavelet representations"
+status = "planned_after_graph_signals"
+enabled = false
+layers = [6, 10, 13, 15]
+component = "multiscale_graph_signal_diagnostics"
+prerequisites = ["declared_numeric_signals", "versioned_graph_projection_contract", "simple_hierarchical_aggregate_baseline"]
+depends_on_extensions = []
+activation_gate = "Reuse AX04 projection contract, not its optional retrieval algorithm; retain rare critical leaf evidence."
+baselines = ["simple_hierarchical_aggregates", "exact_neighborhood_selection"]
+metrics = ["diagnostic_precision", "diagnostic_recall", "practice_or_context_gain", "filter_approximation_error", "peak_memory_bytes", "refresh_cost"]
+acceptance_case = "AX12_RARE_NEGATION_ERROR_PRESERVATION"
+sources = ["https://arxiv.org/abs/0912.3848"]

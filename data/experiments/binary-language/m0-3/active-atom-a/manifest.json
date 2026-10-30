@@ -1,0 +1,13 @@
+{
+  "profile": "sovereign-binary-language-v1",
+  "format": "sovereign-silicate-scratch-v1-sha256",
+  "learner_ingestion_allowed": false,
+  "implementation_sha256": {
+    "tools/binary_codec.py": "2558ea730ae0efc6a6a53df68d1325cf04cbc802aa887305ecede720ceebe28b",
+    "tools/binary_language.py": "a7c749bfd6667cae1951a7a246a2765a8d0fc0f77fb66ac35d5fd8c533ff8bc3"
+  },
+  "file_sha256": {
+    "records.bin": "a61ff7b73e199669990b38a3f33ea05fa9158a578b023519317381911a1adcb3",
+    "report.json": "6de076fa3f78011581f7a7d4efda2805a05c82d328756a992a273c1f698387d9"
+  }
+}

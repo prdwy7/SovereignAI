@@ -1,0 +1,16 @@
+{
+  "build": "M0.1",
+  "verified_date": "2026-10-30",
+  "format": "sovereign-silicate-scratch-v1-sha256",
+  "golden_records_verified": 7,
+  "rust_source_oracle_verified": true,
+  "contract_tests_passed": 25,
+  "primitive_families": [
+    "object",
+    "relation",
+    "derivation"
+  ],
+  "source_license_status": "Unresolved; upstream code not vendored",
+  "python_runtime_dependency_changes": false,
+  "production_rust_kernel_integrated": false
+}

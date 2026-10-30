@@ -1,0 +1,601 @@
+{
+  "unicode_version": "18.0.0",
+  "retrieved_date": "2026-10-29",
+  "release_url": "https://www.unicode.org/versions/Unicode18.0.0/",
+  "purpose": "Official Unicode reference data for SovereignAI symbol infrastructure; not imported into the learner or a graph database.",
+  "archives": [
+    {
+      "path": "archives/UCD.zip",
+      "url": "https://www.unicode.org/Public/18.0.0/ucd/UCD.zip",
+      "bytes": 5657953,
+      "sha256": "7b3e555514060b92290d154f53655c5eb0fa62b16eb04c03434ff72d1a66a0d8",
+      "files": 71,
+      "uncompressed_bytes": 39580113
+    },
+    {
+      "path": "archives/Unihan.zip",
+      "url": "https://www.unicode.org/Public/18.0.0/ucd/Unihan.zip",
+      "bytes": 8340649,
+      "sha256": "4c93ea9c1f636451729a840978f1667a53886af37ba854fdcce109721c63d43e",
+      "files": 8,
+      "uncompressed_bytes": 40323267
+    }
+  ],
+  "metadata_files": [
+    {
+      "path": "ReadMe.upstream.txt",
+      "url": "https://www.unicode.org/Public/18.0.0/ucd/ReadMe.txt",
+      "origin": "Copied byte content from the verified UCD archive ReadMe.txt",
+      "bytes": 729,
+      "sha256": "b0ea442f29dee90584aacd3665a6e1ce87ffc917a4d31f34e1916d2d6f7f9205"
+    },
+    {
+      "path": "LICENSE.upstream.txt",
+      "url": "https://www.unicode.org/license.txt",
+      "origin": "Downloaded from the official license endpoint",
+      "bytes": 1995,
+      "sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96"
+    }
+  ],
+  "files": [
+    {
+      "path": "ucd/ArabicShaping.txt",
+      "bytes": 42356,
+      "sha256": "8ccde4ebd070500a68e8bcb9d5514522fb0bebe57b9ebad3ff925b8e1e669f83",
+      "archive": "archives/UCD.zip",
+      "archive_member": "ArabicShaping.txt"
+    },
+    {
+      "path": "ucd/BidiBrackets.txt",
+      "bytes": 8992,
+      "sha256": "4b3b62e4a14b84ee752808c810c602534921c09a4a1bf78cfbee566d66c125b3",
+      "archive": "archives/UCD.zip",
+      "archive_member": "BidiBrackets.txt"
+    },
+    {
+      "path": "ucd/BidiCharacterTest.txt",
+      "bytes": 6880771,
+      "sha256": "045b24d2c8ab066951bd32fe8c6b4de34647f72b5b1c7df0265f24ab53573e01",
+      "archive": "archives/UCD.zip",
+      "archive_member": "BidiCharacterTest.txt"
+    },
+    {
+      "path": "ucd/BidiMirroring.txt",
+      "bytes": 27294,
+      "sha256": "cd54810ebf52f0e61a730c8b9cb25975de6c85f6d788a559b416afd548923fd6",
+      "archive": "archives/UCD.zip",
+      "archive_member": "BidiMirroring.txt"
+    },
+    {
+      "path": "ucd/BidiTest.txt",
+      "bytes": 7959988,
+      "sha256": "9af2f882a4ab50912e388f069a673b94eacd82fa6d07d20a3ff7f3c759e905aa",
+      "archive": "archives/UCD.zip",
+      "archive_member": "BidiTest.txt"
+    },
+    {
+      "path": "ucd/Blocks.txt",
+      "bytes": 11906,
+      "sha256": "a58f8d322f3c5e254f9f97b1cbf76a454a7e02de6ac35619a5e4f27aaabfd553",
+      "archive": "archives/UCD.zip",
+      "archive_member": "Blocks.txt"
+    },
+    {
+      "path": "ucd/CJKRadicals.txt",
+      "bytes": 5491,
+      "sha256": "689e2e5852699e7115823dc0b6d3e615eb767c7f477b615678f4f989d1f06105",
+      "archive": "archives/UCD.zip",
+      "archive_member": "CJKRadicals.txt"
+    },
+    {
+      "path": "ucd/CaseFolding.txt",
+      "bytes": 88776,
+      "sha256": "a004797658a457bec4dc11683e39f69249ea3b595b752dbea6721c4c9f587b0d",
+      "archive": "archives/UCD.zip",
+      "archive_member": "CaseFolding.txt"
+    },
+    {
+      "path": "ucd/CompositionExclusions.txt",
+      "bytes": 9007,
+      "sha256": "c759b100e9ae8960ae6b50fc5765950a7581fd9f30d4ef95f68f25a6d97e818e",
+      "archive": "archives/UCD.zip",
+      "archive_member": "CompositionExclusions.txt"
+    },
+    {
+      "path": "ucd/DerivedAge.txt",
+      "bytes": 142568,
+      "sha256": "58b04334e3a31f9612694bbc3f6bff4a302b7d424565bca9c47e30aa74f8dbac",
+      "archive": "archives/UCD.zip",
+      "archive_member": "DerivedAge.txt"
+    },
+    {
+      "path": "ucd/DerivedCoreProperties.txt",
+      "bytes": 1159889,
+      "sha256": "09c928886a178fcafd93c29e4bd59073a058e5a100b716d425cb563ab50f68c9",
+      "archive": "archives/UCD.zip",
+      "archive_member": "DerivedCoreProperties.txt"
+    },
+    {
+      "path": "ucd/DerivedNormalizationProps.txt",
+      "bytes": 1396877,
+      "sha256": "98ac7f67d985fe781e317f6182e885e94cabb0c314769e6dd73e48b226931ccd",
+      "archive": "archives/UCD.zip",
+      "archive_member": "DerivedNormalizationProps.txt"
+    },
+    {
+      "path": "ucd/DoNotEmit.txt",
+      "bytes": 52318,
+      "sha256": "3fc8272cf07482cd708892a28265403690a11b2e5db21457d8f69e94efff364d",
+      "archive": "archives/UCD.zip",
+      "archive_member": "DoNotEmit.txt"
+    },
+    {
+      "path": "ucd/EastAsianWidth.txt",
+      "bytes": 204705,
+      "sha256": "a0cf29eacd00cfcaec4381c6b7c281685f18dbb4e7ff82b4076ccb342ca839aa",
+      "archive": "archives/UCD.zip",
+      "archive_member": "EastAsianWidth.txt"
+    },
+    {
+      "path": "ucd/EmojiSources.txt",
+      "bytes": 13643,
+      "sha256": "4b46d42e9016d26a6d0548818413cd001a095c6ac904e693f4e6061d36516268",
+      "archive": "archives/UCD.zip",
+      "archive_member": "EmojiSources.txt"
+    },
+    {
+      "path": "ucd/EquivalentUnifiedIdeograph.txt",
+      "bytes": 18371,
+      "sha256": "c86c80f6a0d1d47c9a5aadfbf1c26f1a732d662d9ccb0ed2d397919ecc47bf72",
+      "archive": "archives/UCD.zip",
+      "archive_member": "EquivalentUnifiedIdeograph.txt"
+    },
+    {
+      "path": "ucd/HangulSyllableType.txt",
+      "bytes": 51360,
+      "sha256": "0468ce5e735a6e3f0e9d12ec006410e86cedc515c34706704c756808a6cf740e",
+      "archive": "archives/UCD.zip",
+      "archive_member": "HangulSyllableType.txt"
+    },
+    {
+      "path": "ucd/Index.txt",
+      "bytes": 169498,
+      "sha256": "e3cd66531dc4379bdf2fd83a3e1fff57b51705fecacce41921d3f386f420a2b4",
+      "archive": "archives/UCD.zip",
+      "archive_member": "Index.txt"
+    },
+    {
+      "path": "ucd/IndicPositionalCategory.txt",
+      "bytes": 52327,
+      "sha256": "c9ad44d267c317ee0e1ec66cbd4d15033c2964f905d11fc8905915f9a5a9ae52",
+      "archive": "archives/UCD.zip",
+      "archive_member": "IndicPositionalCategory.txt"
+    },
+    {
+      "path": "ucd/IndicSyllabicCategory.txt",
+      "bytes": 86842,
+      "sha256": "a2b3aacf6b3e7bad4ca351ef985d9543825e20280ff280c25f646d9bc4ce304c",
+      "archive": "archives/UCD.zip",
+      "archive_member": "IndicSyllabicCategory.txt"
+    },
+    {
+      "path": "ucd/Jamo.txt",
+      "bytes": 3365,
+      "sha256": "2216bd39fbfeb8fc44825909e61bed4d866c5e155ed359fbf8d308e307b15c57",
+      "archive": "archives/UCD.zip",
+      "archive_member": "Jamo.txt"
+    },
+    {
+      "path": "ucd/JurchenSources.txt",
+      "bytes": 78463,
+      "sha256": "e4135d2776ff18232dfe2d59b71ac0775f74f8704f141527079b9b8d6832cdaf",
+      "archive": "archives/UCD.zip",
+      "archive_member": "JurchenSources.txt"
+    },
+    {
+      "path": "ucd/LineBreak.txt",
+      "bytes": 266206,
+      "sha256": "ae8cf1970c73f3f1a12d77852df96c4b2b1723ca8b388e36bb5739250c6849de",
+      "archive": "archives/UCD.zip",
+      "archive_member": "LineBreak.txt"
+    },
+    {
+      "path": "ucd/NameAliases.txt",
+      "bytes": 16714,
+      "sha256": "3d5cf5e468901b080cd99adf2230061b748083705fe633db43ac8b73ec7a13da",
+      "archive": "archives/UCD.zip",
+      "archive_member": "NameAliases.txt"
+    },
+    {
+      "path": "ucd/NamedSequences.txt",
+      "bytes": 20859,
+      "sha256": "4666003f450ece06fb3f5d868c5d486622dc5275ff626a730ff0c94cbb303df0",
+      "archive": "archives/UCD.zip",
+      "archive_member": "NamedSequences.txt"
+    },
+    {
+      "path": "ucd/NamedSequencesProv.txt",
+      "bytes": 2047,
+      "sha256": "22f3952bfa8917e1ba74484a3178ffc13f5f37296d7ccd15e9a2042449a81a4b",
+      "archive": "archives/UCD.zip",
+      "archive_member": "NamedSequencesProv.txt"
+    },
+    {
+      "path": "ucd/NamesList.html",
+      "bytes": 36943,
+      "sha256": "d93c80bce3944766d50e2ee7489a8da976fe8d9aa334b9fdf94fa1c80bb6013d",
+      "archive": "archives/UCD.zip",
+      "archive_member": "NamesList.html"
+    },
+    {
+      "path": "ucd/NamesList.txt",
+      "bytes": 2113504,
+      "sha256": "e0732f7cb47a08ee2186c83a18a91ae277126e8099b53c432b4c3e32488dac9b",
+      "archive": "archives/UCD.zip",
+      "archive_member": "NamesList.txt"
+    },
+    {
+      "path": "ucd/NormalizationCorrections.txt",
+      "bytes": 2214,
+      "sha256": "b4f46d241e924c3803cb18c6a9224cadcee365bb24a2e1fbf33c2f4de955cd5d",
+      "archive": "archives/UCD.zip",
+      "archive_member": "NormalizationCorrections.txt"
+    },
+    {
+      "path": "ucd/NormalizationTest.txt",
+      "bytes": 2863708,
+      "sha256": "25a50d816764b04abfb4a646d3eb2b2a803284c3873d9a06757b94fe4513dde3",
+      "archive": "archives/UCD.zip",
+      "archive_member": "NormalizationTest.txt"
+    },
+    {
+      "path": "ucd/NushuSources.txt",
+      "bytes": 23960,
+      "sha256": "b8fbcccce66163fc4808894a18e120bb04490013e0e027c1ae9335faabc22138",
+      "archive": "archives/UCD.zip",
+      "archive_member": "NushuSources.txt"
+    },
+    {
+      "path": "ucd/PropList.txt",
+      "bytes": 149040,
+      "sha256": "f438f532e8737bb8a2702126cdf9c4af5e357c58c7acf9d9eb2fc7c1a1d955d6",
+      "archive": "archives/UCD.zip",
+      "archive_member": "PropList.txt"
+    },
+    {
+      "path": "ucd/PropertyAliases.txt",
+      "bytes": 9900,
+      "sha256": "83b8df695f9da543dba02b0be2b8bd72f0b52836ad264be113c6d285021ef025",
+      "archive": "archives/UCD.zip",
+      "archive_member": "PropertyAliases.txt"
+    },
+    {
+      "path": "ucd/PropertyValueAliases.txt",
+      "bytes": 83536,
+      "sha256": "06c4c8eaf7b0bf34abe73b113da1215bd784ac254d4c223600b90267caa4bbbd",
+      "archive": "archives/UCD.zip",
+      "archive_member": "PropertyValueAliases.txt"
+    },
+    {
+      "path": "ucd/ReadMe.txt",
+      "bytes": 729,
+      "sha256": "b0ea442f29dee90584aacd3665a6e1ce87ffc917a4d31f34e1916d2d6f7f9205",
+      "archive": "archives/UCD.zip",
+      "archive_member": "ReadMe.txt"
+    },
+    {
+      "path": "ucd/ScriptExtensions.txt",
+      "bytes": 21145,
+      "sha256": "5c9d34a922f687726f2a8bcf57d49f905987e51f1b21b58c95a00fbe255cec23",
+      "archive": "archives/UCD.zip",
+      "archive_member": "ScriptExtensions.txt"
+    },
+    {
+      "path": "ucd/Scripts.txt",
+      "bytes": 196089,
+      "sha256": "0071fd81b6aeae25f6e8bce8efec3066a6476a91b49bdb2f52dc76e817862a6a",
+      "archive": "archives/UCD.zip",
+      "archive_member": "Scripts.txt"
+    },
+    {
+      "path": "ucd/SealSources.txt",
+      "bytes": 1871006,
+      "sha256": "05ba2c220c4f34a0f1ef54676e7d2033963a9baed1acafd079f00f13da11aa90",
+      "archive": "archives/UCD.zip",
+      "archive_member": "SealSources.txt"
+    },
+    {
+      "path": "ucd/SpecialCasing.txt",
+      "bytes": 17422,
+      "sha256": "8538dea57c184f1ef3783885ea79677b10f6efa06423717157e63712f14d1ad2",
+      "archive": "archives/UCD.zip",
+      "archive_member": "SpecialCasing.txt"
+    },
+    {
+      "path": "ucd/StandardizedVariants.txt",
+      "bytes": 77478,
+      "sha256": "c7ae634a7e2bb0932258548a1e81df984fbb38e30cecf4269391d6a4f94581ac",
+      "archive": "archives/UCD.zip",
+      "archive_member": "StandardizedVariants.txt"
+    },
+    {
+      "path": "ucd/TangutSources.txt",
+      "bytes": 395829,
+      "sha256": "ae440bd9bba89b2610cfe6b498ac462d2763dd32bfead8ac30d32988b5b67a27",
+      "archive": "archives/UCD.zip",
+      "archive_member": "TangutSources.txt"
+    },
+    {
+      "path": "ucd/USourceData.txt",
+      "bytes": 258531,
+      "sha256": "09bd813866c5bd11d1381faac2685e7a648b38c3bf6f0e38d6789fb7ae8302cb",
+      "archive": "archives/UCD.zip",
+      "archive_member": "USourceData.txt"
+    },
+    {
+      "path": "ucd/UnicodeData.txt",
+      "bytes": 2243593,
+      "sha256": "0736451de439ae7baf1425136617da495e09ee5afbe6e394374db7009ea08950",
+      "archive": "archives/UCD.zip",
+      "archive_member": "UnicodeData.txt"
+    },
+    {
+      "path": "ucd/Unikemet.txt",
+      "bytes": 1474905,
+      "sha256": "a6c03de18f40f54df5bf3ea6c3152f23075ba8647520e98ea80e8e0352d65a33",
+      "archive": "archives/UCD.zip",
+      "archive_member": "Unikemet.txt"
+    },
+    {
+      "path": "ucd/VerticalOrientation.txt",
+      "bytes": 192064,
+      "sha256": "0803e09669d7aa7137de678e55b848bd418c6632694fa1b05f0b40941103c748",
+      "archive": "archives/UCD.zip",
+      "archive_member": "VerticalOrientation.txt"
+    },
+    {
+      "path": "ucd/auxiliary/GraphemeBreakProperty.txt",
+      "bytes": 100009,
+      "sha256": "0839dcb79e4ac639ecd538b1abf7c9d22e3f9dd265b7e182d33627aa4d75b45a",
+      "archive": "archives/UCD.zip",
+      "archive_member": "auxiliary/GraphemeBreakProperty.txt"
+    },
+    {
+      "path": "ucd/auxiliary/GraphemeBreakTest.html",
+      "bytes": 69755,
+      "sha256": "3c2d7bd88266706594e6424180a82c7d45f5d8b55c5aaf3d8bae664e6e290c89",
+      "archive": "archives/UCD.zip",
+      "archive_member": "auxiliary/GraphemeBreakTest.html"
+    },
+    {
+      "path": "ucd/auxiliary/GraphemeBreakTest.txt",
+      "bytes": 137090,
+      "sha256": "b0cf047ee94485bbdc846de2b902f5f8a815f6b674f9d04223cddadd91c9df31",
+      "archive": "archives/UCD.zip",
+      "archive_member": "auxiliary/GraphemeBreakTest.txt"
+    },
+    {
+      "path": "ucd/auxiliary/LineBreakTest.html",
+      "bytes": 840400,
+      "sha256": "83c8619710198c791853f604e1a8c5519e9d15921367fe9ba938cd3fab3ae5a4",
+      "archive": "archives/UCD.zip",
+      "archive_member": "auxiliary/LineBreakTest.html"
+    },
+    {
+      "path": "ucd/auxiliary/LineBreakTest.txt",
+      "bytes": 3178750,
+      "sha256": "fd9ff9eca411080085b41471bba79ae19d9db2e16924f9770b8509f1affd3f95",
+      "archive": "archives/UCD.zip",
+      "archive_member": "auxiliary/LineBreakTest.txt"
+    },
+    {
+      "path": "ucd/auxiliary/SentenceBreakProperty.txt",
+      "bytes": 225913,
+      "sha256": "0ac10c9d6dca3b33ac695ff0968f26356465a51626950c463b3dce8fa07e61cc",
+      "archive": "archives/UCD.zip",
+      "archive_member": "auxiliary/SentenceBreakProperty.txt"
+    },
+    {
+      "path": "ucd/auxiliary/SentenceBreakTest.html",
+      "bytes": 116547,
+      "sha256": "4049d351572b4fb896489854e2874cd2d8e2c26574ccea7596cb24f391a9f2fe",
+      "archive": "archives/UCD.zip",
+      "archive_member": "auxiliary/SentenceBreakTest.html"
+    },
+    {
+      "path": "ucd/auxiliary/SentenceBreakTest.txt",
+      "bytes": 87946,
+      "sha256": "84ca7516e7bd1203ab7e8d888ae77f0a0af0a254d10e09a2847000588848885c",
+      "archive": "archives/UCD.zip",
+      "archive_member": "auxiliary/SentenceBreakTest.txt"
+    },
+    {
+      "path": "ucd/auxiliary/WordBreakProperty.txt",
+      "bytes": 116210,
+      "sha256": "8dbfa17063e11084201f33c3e76d485d3b9166930c71db8e39ed1c9234171aec",
+      "archive": "archives/UCD.zip",
+      "archive_member": "auxiliary/WordBreakProperty.txt"
+    },
+    {
+      "path": "ucd/auxiliary/WordBreakTest.html",
+      "bytes": 68629,
+      "sha256": "6e9e9a634b3537ef4fdf096c4bb3eff48eb3f9d84b7f68342be40239b0ffc5af",
+      "archive": "archives/UCD.zip",
+      "archive_member": "auxiliary/WordBreakTest.html"
+    },
+    {
+      "path": "ucd/auxiliary/WordBreakTest.txt",
+      "bytes": 322136,
+      "sha256": "3dd70c071781276067c680d87303f60434adce7b067bd063194af374edad86a5",
+      "archive": "archives/UCD.zip",
+      "archive_member": "auxiliary/WordBreakTest.txt"
+    },
+    {
+      "path": "ucd/emoji/ReadMe.txt",
+      "bytes": 621,
+      "sha256": "f1d8c9f7ab8b3f4286e539b7b186ec75b1b08326ee30176e7fa709b2d213e930",
+      "archive": "archives/UCD.zip",
+      "archive_member": "emoji/ReadMe.txt"
+    },
+    {
+      "path": "ucd/emoji/emoji-data.txt",
+      "bytes": 108719,
+      "sha256": "80d00f8e616a0ef27fd6b8de3b758c06383b5d917e2977709578e68baf733bf1",
+      "archive": "archives/UCD.zip",
+      "archive_member": "emoji/emoji-data.txt"
+    },
+    {
+      "path": "ucd/emoji/emoji-variation-sequences.txt",
+      "bytes": 38317,
+      "sha256": "ff1707564aa1f1b2fcf4ec92d609d4cb26940bc0d4dcf07f5328ad6879e84da3",
+      "archive": "archives/UCD.zip",
+      "archive_member": "emoji/emoji-variation-sequences.txt"
+    },
+    {
+      "path": "ucd/extracted/DerivedBidiClass.txt",
+      "bytes": 176412,
+      "sha256": "d9e23222522551348ea1ccfbb4f62efbf98982afb95840f8959c08ed992c5607",
+      "archive": "archives/UCD.zip",
+      "archive_member": "extracted/DerivedBidiClass.txt"
+    },
+    {
+      "path": "ucd/extracted/DerivedBinaryProperties.txt",
+      "bytes": 18081,
+      "sha256": "f4336d325727d94c31f06b660488f5213a5b6f6cf8bb55b090f87bac704805a5",
+      "archive": "archives/UCD.zip",
+      "archive_member": "extracted/DerivedBinaryProperties.txt"
+    },
+    {
+      "path": "ucd/extracted/DerivedCombiningClass.txt",
+      "bytes": 186280,
+      "sha256": "ef6b2611cfb660dba3f6b458b9eb4b05f44ed2417302ee7749d7f0f348793121",
+      "archive": "archives/UCD.zip",
+      "archive_member": "extracted/DerivedCombiningClass.txt"
+    },
+    {
+      "path": "ucd/extracted/DerivedDecompositionType.txt",
+      "bytes": 75838,
+      "sha256": "0941d968cf73472500ab3eb807c02d85e6d7510832a2be7e5d21bd6c08e96e92",
+      "archive": "archives/UCD.zip",
+      "archive_member": "extracted/DerivedDecompositionType.txt"
+    },
+    {
+      "path": "ucd/extracted/DerivedEastAsianWidth.txt",
+      "bytes": 190225,
+      "sha256": "f4c7bc4537a71e12452f6347ecbbc71c31cba21b5190c92be1ae296b0ef32b09",
+      "archive": "archives/UCD.zip",
+      "archive_member": "extracted/DerivedEastAsianWidth.txt"
+    },
+    {
+      "path": "ucd/extracted/DerivedGeneralCategory.txt",
+      "bytes": 282143,
+      "sha256": "d6b151d2d40ee9b1876d26f417980f45ffae47b6055ccf7203cb31f07a030f94",
+      "archive": "archives/UCD.zip",
+      "archive_member": "extracted/DerivedGeneralCategory.txt"
+    },
+    {
+      "path": "ucd/extracted/DerivedJoiningGroup.txt",
+      "bytes": 27012,
+      "sha256": "325be8cd3a32a9cc2b80a1fe67e5c7ade3b58d8280fa9d49134edabed82832a1",
+      "archive": "archives/UCD.zip",
+      "archive_member": "extracted/DerivedJoiningGroup.txt"
+    },
+    {
+      "path": "ucd/extracted/DerivedJoiningType.txt",
+      "bytes": 41024,
+      "sha256": "e2408ff2c92b175b0f7bf62c989bbb54c7b077528fe31f8d69b96fa09e7d61ed",
+      "archive": "archives/UCD.zip",
+      "archive_member": "extracted/DerivedJoiningType.txt"
+    },
+    {
+      "path": "ucd/extracted/DerivedLineBreak.txt",
+      "bytes": 254686,
+      "sha256": "e015a6d4bde8dd0f8b72bf15ac9a4f588146ce6bc0bf8980e9dae8302cdbdc28",
+      "archive": "archives/UCD.zip",
+      "archive_member": "extracted/DerivedLineBreak.txt"
+    },
+    {
+      "path": "ucd/extracted/DerivedName.txt",
+      "bytes": 1931286,
+      "sha256": "ac6cf808ea4ee29323031d5ba9449de13da51398a3f5ce401546d8fceb976df7",
+      "archive": "archives/UCD.zip",
+      "archive_member": "extracted/DerivedName.txt"
+    },
+    {
+      "path": "ucd/extracted/DerivedNumericType.txt",
+      "bytes": 22001,
+      "sha256": "3dade4d96bd00d71b10022bf70b370090f3ca947f977ad4dc2854e06c4d074f6",
+      "archive": "archives/UCD.zip",
+      "archive_member": "extracted/DerivedNumericType.txt"
+    },
+    {
+      "path": "ucd/extracted/DerivedNumericValues.txt",
+      "bytes": 161854,
+      "sha256": "c84f084f83ec6852e1db6e7ef15f340a3af2df8cf0c386ac0d076c2cebd189e6",
+      "archive": "archives/UCD.zip",
+      "archive_member": "extracted/DerivedNumericValues.txt"
+    },
+    {
+      "path": "unihan/Unihan_DictionaryIndices.txt",
+      "bytes": 8921637,
+      "sha256": "b41c7c5ca3a01d833ed4fe0c7b9cdf41c4ec08cb11a0fd1df6e92ed666ce00e1",
+      "archive": "archives/Unihan.zip",
+      "archive_member": "Unihan_DictionaryIndices.txt"
+    },
+    {
+      "path": "unihan/Unihan_DictionaryLikeData.txt",
+      "bytes": 4129290,
+      "sha256": "cce221e3d4719c9fa7f0068d2a86bd0d8f3bf5725a21a77d00fc4f784d5520ed",
+      "archive": "archives/Unihan.zip",
+      "archive_member": "Unihan_DictionaryLikeData.txt"
+    },
+    {
+      "path": "unihan/Unihan_IRGSources.txt",
+      "bytes": 13379351,
+      "sha256": "e2c484cd22b54f7e0ce896ebb02f33e092b92325accf0fd55e0e14e3863869eb",
+      "archive": "archives/Unihan.zip",
+      "archive_member": "Unihan_IRGSources.txt"
+    },
+    {
+      "path": "unihan/Unihan_NumericValues.txt",
+      "bytes": 4990,
+      "sha256": "ea986cec09192efa3b527049fca964682b394d42b0ce0e15dbe1321dec2dc7e6",
+      "archive": "archives/Unihan.zip",
+      "archive_member": "Unihan_NumericValues.txt"
+    },
+    {
+      "path": "unihan/Unihan_OtherMappings.txt",
+      "bytes": 3715847,
+      "sha256": "fc7bbb8f923fa1e922a4d421aa15387d1c68250cc5e7619bdf81f575ab38472b",
+      "archive": "archives/Unihan.zip",
+      "archive_member": "Unihan_OtherMappings.txt"
+    },
+    {
+      "path": "unihan/Unihan_RadicalStrokeCounts.txt",
+      "bytes": 600881,
+      "sha256": "9330f089ebb61426b277951b319775aa6e3a3e56900f6381cab915891cd4fda9",
+      "archive": "archives/Unihan.zip",
+      "archive_member": "Unihan_RadicalStrokeCounts.txt"
+    },
+    {
+      "path": "unihan/Unihan_Readings.txt",
+      "bytes": 8844571,
+      "sha256": "9d39995b5de714e8ce93716ed5d15eaa0792d68e407cdf8a0add2893b8f4150b",
+      "archive": "archives/Unihan.zip",
+      "archive_member": "Unihan_Readings.txt"
+    },
+    {
+      "path": "unihan/Unihan_Variants.txt",
+      "bytes": 726700,
+      "sha256": "4ccfd34b08ac7b9c14353f6668ba43e3796d85c4cdce7952b635be16015aafa2",
+      "archive": "archives/Unihan.zip",
+      "archive_member": "Unihan_Variants.txt"
+    }
+  ],
+  "verification": {
+    "zip_crc": "passed for every member of both archives",
+    "version": "UCD ReadMe and all Unihan text file headers confirm 18.0.0",
+    "checksums": "SHA-256 computed locally after HTTPS download; not compared to a separately published upstream checksum",
+    "extracted_files": "bytes verified against archive members after extraction"
+  }
+}

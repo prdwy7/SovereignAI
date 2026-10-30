@@ -1,0 +1,79 @@
+{
+  "reviewed_date": "2026-10-30",
+  "shared_url": "https://chatgpt.com/s/t_6ae39bbc3ef48191a3d8169ab041991d",
+  "accessible_title": "12 promising frontiers in linear algebra that could transform AI",
+  "retrieval_method": "HTTPS public page; decode React Router embedded JSON string as data; page scripts not executed",
+  "scope": "Accessible shared response; no claim to unshared conversation history",
+  "html_sha256": "662d3ee5e47099257fbf8826b2d46aad85dad0380966f2c95752e9c867e93813",
+  "plain_response_sha256": "a62043db428e4eb796a5d7d010d2186266008eddf8a244a84fc9b6d9e3941983",
+  "source_directions": [
+    {
+      "number": 1,
+      "name": "Geometric algebra"
+    },
+    {
+      "number": 2,
+      "name": "Tensor networks"
+    },
+    {
+      "number": 3,
+      "name": "Hyperdimensional computing"
+    },
+    {
+      "number": 4,
+      "name": "Spectral graph theory"
+    },
+    {
+      "number": 5,
+      "name": "Operator learning"
+    },
+    {
+      "number": 6,
+      "name": "Dynamic low-rank subspaces"
+    },
+    {
+      "number": 7,
+      "name": "Symplectic geometry"
+    },
+    {
+      "number": 8,
+      "name": "Tropical linear algebra"
+    },
+    {
+      "number": 9,
+      "name": "Noncommutative algebra"
+    },
+    {
+      "number": 10,
+      "name": "Sparse associative memory"
+    },
+    {
+      "number": 11,
+      "name": "Sheaf-based linear algebra"
+    },
+    {
+      "number": 12,
+      "name": "Multiscale wavelet representations"
+    }
+  ],
+  "adaptation_document": "docs/MATHEMATICAL_EXTENSIONS.md",
+  "experiment_register": "experiments/mathematical_extensions.toml",
+  "reference_urls": [
+    "https://aclanthology.org/D12-1110/",
+    "https://arxiv.org/abs/0912.3848",
+    "https://arxiv.org/abs/1509.06569",
+    "https://arxiv.org/abs/2001.03750",
+    "https://arxiv.org/abs/2108.08481",
+    "https://arxiv.org/abs/2111.06077",
+    "https://arxiv.org/abs/2202.04579",
+    "https://arxiv.org/abs/2205.13571",
+    "https://arxiv.org/abs/2305.18415",
+    "https://arxiv.org/abs/2604.25902",
+    "https://arxiv.org/abs/2608.30505",
+    "https://arxiv.org/abs/2610.30121",
+    "https://ntrs.nasa.gov/api/citations/19920019632/downloads/19920019632.pdf",
+    "https://research.google/pubs/generic-e-removal-and-input-e-normalization-algorithms-for-weighted-transducers/",
+    "https://www.openfst.org/twiki/bin/view/FST/ShortestDistanceDoc"
+  ],
+  "review_limit": "Targeted primary-source abstracts, bibliographic records and technical documentation; not a replication or code audit"
+}

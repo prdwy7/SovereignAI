@@ -1,0 +1,81 @@
+{
+  "authorization": "User requested an M0.3 update against the same shared chat",
+  "build": "M0.3",
+  "canonical_profile_changed": false,
+  "change_kind": "source alignment and roadmap documentation",
+  "checks": {
+    "active_artifact_replay": {
+      "passed": true,
+      "path": "data/experiments/active-objects/m0-2/records.sqlite",
+      "replayed_commands": 10
+    },
+    "binary_artifact_replay": {
+      "passed": true,
+      "paths": [
+        "data/experiments/binary-language/m0-3/native",
+        "data/experiments/binary-language/m0-3/active-atom-a"
+      ]
+    },
+    "installed_package_compatibility": {
+      "command": "uv pip check --python .venv/bin/python",
+      "packages": 25,
+      "passed": true
+    },
+    "lock": {
+      "command": "uv lock --check --offline",
+      "passed": true,
+      "resolved_entries": 27
+    },
+    "prior_m0_3_receipt_file_hashes_match": true,
+    "pytest": {
+      "command": ".venv/bin/python -m pytest -q tests",
+      "passed": 103,
+      "seconds": 3.39
+    },
+    "ruff": {
+      "command": ".venv/bin/ruff check scripts tools tests",
+      "passed": true
+    },
+    "unicode_collection": {
+      "command": ".venv/bin/python -m tools.unicode_objects verify",
+      "declaration_objects": 6,
+      "passed": true,
+      "scalar_objects": 310341
+    }
+  },
+  "clarifications": [
+    "The six-stage baseline is not completion of the broader research architecture",
+    "Scoped exact-pattern candidates do not establish grounded concepts",
+    "Observed adjacency is not a learned transformation or causal conclusion",
+    "One-step prediction is not a general reasoning or autonomous revision loop",
+    "Semantic interpretation and executable procedures require separate versioned records and validation",
+    "Unicode text composition and native binary learning remain separate interfaces",
+    "Accepted numeric/tensor scaling remains future implementation"
+  ],
+  "coverage": "One publicly exposed assistant response; six components recovered from inert visual markup; earlier user messages unavailable",
+  "extraction": "JSON decode of freshly fetched public React Router stream; no execution of page code",
+  "learner_ingestion_allowed": false,
+  "next_build": "M1.2",
+  "next_build_status": "proposed; not approved; not implemented",
+  "old_artifact_hashes_preserved": {
+    "data/experiments/binary-language/m0-3/active-atom-a/manifest.json": "91943dac0132d790969fe5ed3f07df9def4a6e9ccaaf9a75cbcbafba902b741b",
+    "data/experiments/binary-language/m0-3/active-atom-a/records.bin": "a61ff7b73e199669990b38a3f33ea05fa9158a578b023519317381911a1adcb3",
+    "data/experiments/binary-language/m0-3/active-atom-a/report.json": "6de076fa3f78011581f7a7d4efda2805a05c82d328756a992a273c1f698387d9",
+    "data/experiments/binary-language/m0-3/native/manifest.json": "ee805063c7049b146ff20b20b989d8b3287add4edaf566ed9956882914d2ed9f",
+    "data/experiments/binary-language/m0-3/native/records.bin": "17c78828651e11b69da6254278f9e23b198ed030edfc1c3a594627434b1bb52f",
+    "data/experiments/binary-language/m0-3/native/report.json": "ba7d98f8444a74453ba6499091588df647e561b3d489a846ed7a6351cd40b21a",
+    "fixtures/binary-language-v1/golden.json": "9f61e7a425f703a0ad9a54c1e83ce0040d5e4fffee89157874bf07da95aaf566",
+    "manifests/binary-language-source-review.json": "3d3eb0463a314644d1a3b5957bd919b5ee3f2ac3263c0a42e603f16185cd5ecc",
+    "tests/test_binary_language.py": "af6e0e99a01e2178ce5d302dafebe03bda8ebda45685b594a455e6d18b81b364",
+    "tools/binary_codec.py": "2558ea730ae0efc6a6a53df68d1325cf04cbc802aa887305ecede720ceebe28b",
+    "tools/binary_language.py": "a7c749bfd6667cae1951a7a246a2765a8d0fc0f77fb66ac35d5fd8c533ff8bc3"
+  },
+  "original_source_receipt": "manifests/binary-language-source-review.json",
+  "paid_development_api_requests": 0,
+  "plain_text_sha256": "588a9c46a5878c90da52cf1b27350dc601d61e2cdb1adff136e16bcc7170dfaf",
+  "response_unchanged": true,
+  "runtime_changed": false,
+  "source_url": "https://chatgpt.com/s/t_6ae44d42ba6481918fec6b463eb8ccf5",
+  "updated_at": "2026-10-30T11:41:25.786712+00:00",
+  "visual_markup_sha256": "36949676fddc0df59ecac0ffa752e0a56588360d67ee873199895dcb2c55510f"
+}

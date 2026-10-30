@@ -1,0 +1,70 @@
+{
+  "build": "M0.1",
+  "pinned_date": "2026-10-30",
+  "format": "sovereign-silicate-scratch-v1-sha256",
+  "protocol_byte": 1,
+  "identity_suite": "V1Sha256",
+  "identity_formula": "SHA256(SILICATE_<FAMILY>_V1 ASCII bytes || canonical bytes); canonical bytes already start with 0x01",
+  "selected_source": {
+    "path": "/Users/prdwy/Downloads/LMStudioBionic/SilicateScratch",
+    "git_revision": "71ed16a936354e828a92d5c20e11328835e77375",
+    "working_tree_clean": true,
+    "files_sha256": {
+      "Cargo.toml": "c93ba92b258b1dd8c08f45082da5141b1d44d95f8e22a0394f0b5f62b308c1db",
+      "Cargo.lock": "481c17dd2e04ab96e9eb6207750855d70c0eb2170b0203ae76c6eeb6fd52a931",
+      "crates/silicate-core/Cargo.toml": "1dc423d90e433fab7e7543611671265f3b4be6061f6a41a0c9dc1e82b416caf5",
+      "crates/silicate-core/src/types.rs": "90166b9b6dba656b5da47b38f7a7aa231da661700da0a8a857d97d2de39932b5",
+      "crates/silicate-core/src/canonical.rs": "a23d8c47552027b9b4340e614cbcdbb604307ab69060a741e81a0e475cdc6b0d",
+      "crates/silicate-core/src/identity.rs": "52ddfe9d52498c8777ccfdcb8886fd805da490a06aac0eb0a9b2c5d7241e1997",
+      "crates/silicate-core/src/object.rs": "28ec191ddffe9c562634a32dd4e3f74f84ef53c00c01086d101396c9f7829fa7",
+      "crates/silicate-core/src/relation.rs": "be0fe394c3ff7b5b1cd68b695dc4bc6a8bb7755610218dea80df23c734ab46d7",
+      "crates/silicate-core/src/derivation.rs": "8cdb12686aa5cc2e9dc7d6c6b8c28c7372559c113983a2833a24c11ba6ab9a7a",
+      "crates/silicate-core/src/verify.rs": "946014e536f43bcfa34e28be37e730550135f64b635d5bf4608bd321a6df2957"
+    }
+  },
+  "alternative_source": {
+    "path": "/Users/prdwy/Downloads/LMStudioBionic/RustSilicate",
+    "git_revision": null,
+    "pin_method": "inspected file hashes; directory is not a Git repository",
+    "files_sha256": {
+      "Cargo.toml": "c9c1dbe1309d434a851bc5ea1c5869c14269cf7e564056f5ecaac78b7d3b0b66",
+      "Cargo.lock": "a713cb740cd5f60b3332392d2a2987fcf30f48f55974ca51a35eb60cee4e9f00",
+      "crates/silicate-core/Cargo.toml": "cc59a70c395d8b9b8585380ee3300826e2d9093098abfcdaabd9712e549c3d4f",
+      "crates/silicate-core/src/types.rs": "abf9fdbc5437c8136b2dd95ff2911cc3ef30531813fee31e60c957b09959fad7",
+      "crates/silicate-core/src/canonical.rs": "b8087c087274449d155931703168d80ed26f3179e79896e9b5784eef14c6633b",
+      "crates/silicate-core/src/identity.rs": "502bafee52cdd4ce23720def47fd0213b363fb370b1fef8df173142ee2abb1ad",
+      "crates/silicate-core/src/object.rs": "46a966ac382fb8b9ff2f7bd7e0d54cf1500124c89134204f56a8a304dea5c3a6",
+      "crates/silicate-core/src/relation.rs": "d7ae50822610da1cc16f38361a7a4f689f46ec770797576bce913ac4163442dc",
+      "crates/silicate-core/src/derivation.rs": "18e1a828d7149486ea05dfd93971e55c5b26b5ea97bdddba67d17f104fd0ad77",
+      "crates/silicate-core/src/verify.rs": "75ac678ff15d563db850cac3afee31249b23a1270190a7ca483edb9f27f9b787"
+    }
+  },
+  "license_review": {
+    "scope": "Top-level LICENSE/COPYING/NOTICE files, root/core Cargo manifests, README declarations",
+    "selected_declaration_found": false,
+    "alternative_declaration_found": false,
+    "upstream_vendored": false,
+    "redistribution_clearance": "unresolved",
+    "decision": "Pin observed format and use independently written contract tooling; upstream code remains in place for local validation only"
+  },
+  "strict_profile": {
+    "max_record_bytes": 1048576,
+    "max_references": 4096,
+    "consume_entire_record": true,
+    "ordering_flags": [
+      0,
+      1
+    ],
+    "reference_tags": {
+      "0": "object",
+      "1": "relation"
+    },
+    "execution_tags": {
+      "0": "deterministic",
+      "1": "attested"
+    }
+  },
+  "production_kernel_integrated": false,
+  "probe_manifest": "probes/silicate-source/Cargo.toml",
+  "probe_lock_sha256": "47740ed26dad612f99c428ef2200305f7b38a2c6edf19d404298ee15898175fb"
+}
