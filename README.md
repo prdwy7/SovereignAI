@@ -47,3 +47,9 @@ python --version
 ```
 
 To recreate or synchronize the locked environment, run `bash scripts/setup_env.sh`. Dependency changes should update `pyproject.toml` and `uv.lock` together.
+
+## License
+
+Copyright (C) 2020 Pridhvi Patagarla
+
+SovereignAI is free software released under the [GNU General Public License, version 3](LICENSE). See the [LICENSE](LICENSE) file for the full license text, and <https://www.gnu.org/licenses/gpl-3.0.html> for further information.
